@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  backend:
+    build: ./LITABA_BACKEND
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./LITABA_BACKEND:/code
+    depends_on:
+      - database
+
+  frontend:
+    build: ./LITABA_FRONTEND
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./LITABA_FRONTEND:/app
+    depends_on:
+      - backend
+
+  database:
+    image: postgres
+    environment:
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword

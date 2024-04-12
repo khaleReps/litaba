@@ -53,8 +53,8 @@ This command will display the logs of your database service. Look for any errors
 
 Connect to PostgreSQL Container:
 You can connect to the PostgreSQL container and run PostgreSQL commands to verify the connection. Open a new terminal window, navigate to your project root directory, and run:
-`docker-compose exec database psql -U user_name database_name` \
-user_name & database_name are just placeholders 
+`docker-compose exec database psql -U database_user database_name` \
+<i> * database_user & database_name are just placeholders</i> 
 
 Test Database Connection from Django: You can also verify the database connection from your Django application. Check the logs of your Django backend service to see if there are any database connection errors. Open a new terminal window, navigate to your project root directory, and run:\
 `docker-compose logs backend`

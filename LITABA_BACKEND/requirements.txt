@@ -1,3 +1,7 @@
-python-dotenv==0.19.*
-Django==4.2
-psycopg2==2.9.*
+asgiref==3.8.1
+Django==5.0
+djangorestframework==3.15.1
+psycopg2==2.9.9
+python-dotenv==0.19.2
+sqlparse==0.4.4
+typing_extensions==4.11.0

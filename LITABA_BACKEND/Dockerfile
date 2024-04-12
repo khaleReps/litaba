@@ -16,5 +16,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Expose port 8000 to allow communication to/from server
 EXPOSE 8000
 
-# Define the command to run your application
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# Run migrations and start the Django server
+CMD ["python", "manage.py", "makemigrations", "&&", "python", "manage.py", "migrate", "&&", "python", "manage.py", "runserver", "0.0.0.0:8000"]

@@ -1,5 +1,6 @@
++ ajv@8.12.0
 + typescript@5.4.5
-added 1 package from 1 contributor and audited 1583 packages in 20.941s
+added 11 packages from 2 contributors, updated 2 packages and audited 1582 packages in 14.719s
 
 262 packages are looking for funding
   run `npm fund` for details

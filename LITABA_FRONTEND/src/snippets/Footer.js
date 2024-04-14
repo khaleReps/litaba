@@ -20,7 +20,7 @@ function Footer() {
           <li>Litaba Shop</li>
         </ul>
       </div>
-        
+
       <div className="footer-section">
         <select className="language-form">
           <option value="">Litaba in other languages</option>
@@ -53,7 +53,11 @@ function Footer() {
       </div>
 
       <div className="footer-section">
-        <p className="copyright">&copy; 2024 LITABA. All rights reserved. The LITABA is not responsible for the content of external sites. Read about our approach to external linking.</p>
+        <p className="copyright">
+          &copy; 2024 LITABA. All rights reserved. The LITABA is not responsible
+          for the content of external sites. Read about our approach to external
+          linking.
+        </p>
       </div>
     </footer>
   );

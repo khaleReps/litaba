@@ -26,4 +26,3 @@ class CategoryArticleList(generics.ListAPIView):
 class CommentListCreate(generics.ListCreateAPIView):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
-    

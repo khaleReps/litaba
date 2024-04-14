@@ -1,9 +1,0 @@
-+ ajv@8.12.0
-+ typescript@5.4.5
-added 11 packages from 2 contributors, updated 2 packages and audited 1582 packages in 14.719s
-
-262 packages are looking for funding
-  run `npm fund` for details
-
-found 2 vulnerabilities (1 moderate, 1 high)
-  run `npm audit fix` to fix them, or `npm audit` for details

@@ -9,6 +9,7 @@ Welcome to LITABA, a news and information project that combines the power of Dja
 * Frontend
 * Postgres
 * tailwind
+* heroicons
 
 ## Project Structure
 

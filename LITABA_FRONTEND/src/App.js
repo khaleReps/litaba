@@ -7,16 +7,16 @@ import News from './pages/News';
 
 function App() {
   return (
-    <div>
+    <div className="">
       <AnnouncementBar />
-      <Header />
-      <div style={{ display: 'flex' }}>
+      {/* <Header />
+      <div className="">
         <Sidebar />
-        <div style={{ flex: 1, padding: '20px' }}>
+        <div className="">
           <News />
         </div>
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

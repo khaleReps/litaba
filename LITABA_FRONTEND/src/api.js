@@ -17,6 +17,11 @@ export const getArticlesByCategory = (category) => {
   return api.get(`categories/${category}/`);
 };
 
+// Fetch all headlines
+export const getHeadlines = () => {
+  return api.get('headlines/');
+};
+
 // Create a new comment
 export const createComment = (commentData) => {
   return api.post('comments/', commentData);
